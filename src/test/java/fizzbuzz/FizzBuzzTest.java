@@ -27,4 +27,10 @@ public class FizzBuzzTest {
 		assertThat(fizzBuzz.convert(5)).isEqualTo("Buzz");
 		assertThat(fizzBuzz.convert(10)).isEqualTo("Buzz");
 	}
+
+	@Test
+	void multipleOfBothThreeAndFive(){
+		FizzBuzz fizzBuzz = new FizzBuzz();
+		assertThat(fizzBuzz.convert(15)).isEqualTo("FizzBuzz");
+	}
 }
