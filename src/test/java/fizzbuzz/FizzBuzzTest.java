@@ -14,4 +14,10 @@ public class FizzBuzzTest {
 		assertThat(fizzBuzz.convert(2)).isEqualTo("2");
 	}
 
+	@Test
+	void multipleOfThree(){
+		FizzBuzz fizzBuzz = new FizzBuzz();
+		assertThat(fizzBuzz.convert(3)).isEqualTo("Fizz");
+		assertThat(fizzBuzz.convert(6)).isEqualTo("Fizz");
+	}
 }
