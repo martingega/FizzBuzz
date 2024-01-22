@@ -8,6 +8,7 @@ Write a program that prints the numbers from 1 to 100. But for the multiples of 
 instead of the number and for the multiples of 5 prints "Buzz". For numbers which are multiples
 of both 3 and 5 print "Fizzbuzz".
 
+Follow the TDD process (Commit only the GREEN tests, not the RED ones).
 
 ### Example
 
